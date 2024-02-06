@@ -1,0 +1,42 @@
+baseurl = "https://imad-pasha.github.io/"
+title = "imad-pasha"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "home/"
+  url = "/"
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "research/"
+  url = "research/"
+
+  [[params.navlinks]]
+  name = "publications/"
+  url = "publications/"
+  
+  [[params.navlinks]]
+  name = "software/"
+  url = "software/"
+
+  [[params.navlinks]]
+  name = "teaching/"
+  url = "teaching/"

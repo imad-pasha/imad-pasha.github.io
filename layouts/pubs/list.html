@@ -1,0 +1,55 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+<br/>
+{{ .Content }}
+<div class="custom-control custom-switch">
+    <input type="checkbox" class="custom-control-input" id="toggleSwitch">
+    <label class="custom-control-label" for="toggleSwitch">Only 1st-3rd Author</label>
+</div>
+<div class="posts-list">
+    {{ $prevYear := "" }}
+    {{ range sort .Data.Pages "Date" "desc" }}
+        {{ if not .Params.private }}
+            {{ $year := .PublishDate.Format "2006" }}
+            {{ if ne $year $prevYear }}
+                {{ if ne $prevYear "" }}
+                    <hr> <!-- Add <hr> if the year has changed and it's not the first post -->
+                {{ end }}
+                <div class="year-header">{{ $year }}</div>
+            {{ end }}
+            <div class="post {{ if .Params.isFirstSecond }}first-second{{ end }}">
+                <p>
+                    <div class="date"><strong>{{.Params.Journal}}</strong><br>{{ .PublishDate.Format "Jan. 2006" }}<br><a href="{{.Params.ads}}" class="btn btn-sm btn-outline-primary py-0" target="_blank">ADS</a></div>    
+                    <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                    {{ .Summary }}
+                </p>
+                <p></p>
+                <br>
+            </div>
+            {{ $prevYear = $year }}
+        {{ end }}
+    {{ end }}
+</div>
+
+
+<script>
+    document.getElementById('toggleSwitch').addEventListener('change', function() {
+        var posts = document.querySelectorAll('.post');
+        var toggleCondition = this.checked; // Use the checked state of the switch
+
+        posts.forEach(function(post) {
+            // Toggle visibility based on isFirstSecond parameter
+            var isFirstSecond = post.classList.contains('first-second');
+
+            if (toggleCondition && isFirstSecond) {
+                post.style.display = 'block'; // Show the post
+            } else if (!toggleCondition) {
+                post.style.display = 'block'; // Show the post regardless of isFirstSecond
+            } else {
+                post.style.display = 'none'; // Hide the post
+            }
+        });
+    });
+</script>
+{{ end }}
+

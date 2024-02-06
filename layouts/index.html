@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+<!-- <div class="image-grid">
+    {{ with .Site.GetPage "/photos" }}
+        {{ range first 1 (sort .Data.Pages "Date" "desc")}}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+            
+            </a>
+        {{ end }}
+    {{ end }}
+    </div> -->
+
+
+<div class="image-grid">
+
+        <div align="right" class="homepage">
+            <p class="myname">Imad Pasha</h1>
+            <br>
+
+            <h1>About</h1>
+            <p class="myabout">I am a PhD student and <span class="emph">NSF Fellow</span> at Yale University studying Galaxy Evolution and the Circumgalactic medium, and am a team member of the Dragonfly Spectral Line Mapper.</p>
+            <p class="myabout"> I am the author of Astronomical Python: An Introduction to Modern Scientific Computing. <a href="about/">(more)</a></p>
+            <h1>Quick Links</h1>
+            <a href="/ipasha_cv_condensed.pdf" target="_blank">Curriculum Vitae (PDF)</a><br>
+            <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22pasha%2C%20imad%22%20collection%3Aastronomy%20year%3A2016-2024&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">Papers (Nasa ADS)</a><br>
+            <a href="https://github.com/prappleizer" target="_blank">Github Profile</a><br>
+        </div>
+        {{ with .Site.GetPage "/about" }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+            </a>
+        
+    {{ end }}
+</div>
+
+
+
+<!-- <h1>Latest News</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+<h1>Recent Projects</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/projects" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+        {{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "400x" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+        {{end}}
+        </a>
+    {{ end }}
+{{ end }}
+</div> -->
+
+{{ end }}
