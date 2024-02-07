@@ -52,8 +52,6 @@ I've dubbed this ongoing project **CGMBridge**, and hope to have first results o
 
 ## Examing the Fate of Collisional Ring Galaxies 
 
-![](/rings.png)
-{.custom-css-class2}
 
 Collisional Ring Galaxies (CRGs) form when one galaxy flies at a nearly 90 degree angle through the center of another (sprial). The outcome is a reconfiguration of the impacted galaxies, in which spiral arms are swept by propogating structures into one or more rings. Classic examples of this type of system include Hoag's Object and the Cartwheel galaxy. 
 

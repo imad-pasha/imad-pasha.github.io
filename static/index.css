@@ -16,6 +16,9 @@ img.custom-css-class2 {
     margin-bottom:2%;
 }
 
+
+
+
 p.custom-css{
     font-weight:300;
 }
@@ -31,6 +34,13 @@ p.custom-css{
     .name .lastname {
         display: block; /* Forces the last name onto a new line */
         margin-top: 1rem;
+    }
+    img.custom-css-class, img.custom-css-class2 {
+        width: 100%;
+        margin-top: 2%; /* Adjust if needed */
+        margin-bottom: 2%; /* Adjust if needed */
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
