@@ -32,6 +32,7 @@
 <body class="terminal">
     <div class="container">
         <div class="terminal-nav">
+          <div class="menu-icon">&#9776;</div>
           <header class="terminal-logo">
             <div class="logo terminal-prompt">
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
@@ -54,4 +55,11 @@
         {{ partial "footer.html" . }}
     </div>
   </body>
-</html>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.terminal-nav').classList.toggle('active');
+        });
+    });
+    </script>
+  </html>
