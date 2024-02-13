@@ -60,7 +60,7 @@ I am currently working on a paper which forward models TNG50 galaxies into the D
 
 I've dubbed this ongoing project **CGMBridge**, and hope to have first results out for those studies soon. 
 
-# Examing the Fate of Collisional Ring Galaxies 
+# Examining the Fate of Collisional Ring Galaxies 
 
 
 Collisional Ring Galaxies (CRGs) form when one galaxy flies at a nearly 90 degree angle through the center of another (sprial). The outcome is a reconfiguration of the impacted galaxies, in which spiral arms are swept by propogating structures into one or more rings. Classic examples of this type of system include Hoag's Object and the Cartwheel galaxy. 
@@ -107,5 +107,3 @@ Co-developed with Tim Miller, our publicly available pysersic code is designed t
 # Silkscreen: Semiresolved galaxy distances from simulation based inference and convolutional neural nets
 
 With upcoming wide field surveys from the ground and space the number of known dwarf galaxies at ≲ 20 Mpc is expected to exponentially increase. A limiting factor to scientific advancement will be measuring accurate distances to these galaxies. Traditional techniques such as tip of the red giant branch or surface brightness fluctuations are limited in their widespread applicability, especially in the semi-resolved regime. In this work we propose to use the rapidly growing field of simulation based inference to infer distances, and other physical properties, of dwarf galaxies directly from multi-band images. We use neural posterior estimation to infer the posterior distribution of parameters while simultaneously training a embedding network to extract summary statistics from the images. To train the network we employ ArtPop to simulate images of dwarf galaxies before injecting them into real images to best match the noise properties. We describe our the details of our implementation which is available as the SilkScreen python package. We apply our method to ground based survey data of globular clusters in the milky way halo, dwarf galaxies at the edge of the local group and at ∼ 10 Mpc showing the flexibility of SilkScreen to infer accurate distance to many stellar systems ranging from fully resolved to un-resolved. We discuss the limitations of the current method and discess future directions including the possibility of amortized inference to easily enable inference for thousands of dwarf galaxies. [(more)](../software/silkscreen/).
-
-![](/silkscreen-example.webp)
