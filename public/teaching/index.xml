@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching Experience and Pedagogical Initiatives on imad-pasha</title>
+    <link>https://imad-pasha.github.io/teaching/</link>
+    <description>Recent content in Teaching Experience and Pedagogical Initiatives on imad-pasha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://imad-pasha.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astro 330: Scientific Computing for Astrophysics</title>
+      <link>https://imad-pasha.github.io/teaching/astro-330/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/teaching/astro-330/</guid>
+      <description>This course (now a regular offering in the Yale Astronomy department) focuses on high level Python computing in the context of astrophysics research. The course goal is to provide students with the fundamentals of building astronomical pipelines and the general use of cutting edge tools and techniques currently used in the astronomical community. We discussed (and built) software for the analysis, manipulation, reduction, and visualization of astronomical data from observations and simulations.</description>
+    </item>
+    <item>
+      <title>AstroCodex</title>
+      <link>https://imad-pasha.github.io/teaching/astrocodex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/teaching/astrocodex/</guid>
+      <description>As the field of astronomy continues to evolve, expectations for undergraduate research have surged (hence a lot of the other teaching initiatives on this page!). There is a pressing need to equip students with the requisite technical proficiency and research acumen to ensure they are well-prepared for the rigors of graduate-level study or careers in industry.&#xA;The new reality is that undergraduates must learn research proficiency both earlier, and to a more advanced degree, than in the past.</description>
+    </item>
+  </channel>
+</rss>

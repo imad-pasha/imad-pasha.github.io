@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>imad-pasha/software/tileviewer/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/console.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/index.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="TileViewer" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imad-pasha.github.io/software/tileviewer/" />
+
+
+  
+<meta property="og:image" content="https://imad-pasha.github.io/software/tileviewer/tileviewer_huebbfad1edfa8e198fe68a27ac6a615ca_272462_400x0_resize_q75_box.jpg">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://imad-pasha.github.io/software/tileviewer/tileviewer_huebbfad1edfa8e198fe68a27ac6a615ca_272462_400x0_resize_q75_box.jpg">
+
+
+
+<meta name="twitter:title" content="TileViewer"/>
+<meta name="twitter:description" content="Tileviewer is a Bokeh-server based app for the visual inspection of astronomical images (generally &ldquo;tiled&rdquo; images from an astronomical survey).
+Using an Airtable database as the backend, the app can connect to a data source (in our case, amazon s3) to retrieve data. The user interface allows for tiles to be scaled, zoomed in on, panned, etc. Users can also select objects and retrieve cutouts from the legacy survey. Interesting objects (or objects matching a search criteria) can be instantly tagged and added to a catalog on airtable."/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <div class="menu-icon">&#9776;</div>
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://imad-pasha.github.io/" class="no-stylesite-name">imad-pasha</a>:~# 
+              <a href='https://imad-pasha.github.io/software'>software</a>/<a href='https://imad-pasha.github.io/software/tileviewer'>tileviewer</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://imad-pasha.github.io/" typeof="ListItem">home/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/research/" typeof="ListItem">research/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/publications/" typeof="ListItem">publications/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/software/" typeof="ListItem">software/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/teaching/" typeof="ListItem">teaching/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>TileViewer</h1>
+<img src="tileviewer2.jpeg" alt=""><p>Tileviewer is a Bokeh-server based app for the visual inspection of astronomical images (generally &ldquo;tiled&rdquo; images from an astronomical survey).</p>
+<p>Using an <a href="https://airtable.com"   target="_blank">Airtable</a>
+ database as the backend, the app can connect to a data source (in our case, <code>amazon s3</code>) to retrieve data. The user interface allows for tiles to be scaled, zoomed in on, panned, etc. Users can also select objects and retrieve cutouts from the legacy survey. Interesting objects (or objects matching a search criteria) can be instantly tagged and added to a catalog on airtable.</p>
+<p>In the example above, the viewer was used for a team to search for ultradiffuse galaxies, so a few simulated images are shown to help match the desired targets. A progress bar also denotes the team&rsquo;s progress through a particular catalog.</p>
+<p>There are also numerous flags, which can be used to indicate that a frame is contaminated by satellites or cirrus in the galaxy, etc. (This actually worked! Below, you can see a map of galactic cirrus traced in planck emission, with boxes showing tiles marked by the team as contaminated, which served as a &ldquo;training&rdquo; set for choosing the map threshold.)</p>
+<img src="tileviewer-cirrus.webp" alt=""><p>The tileviewer app is currently customized for the use of Dragonfly team members, and so is not public. But if this code interests you or you might have use for something similar to it, please get in touch and I&rsquo;m happy to chat.</p>
+
+
+        <div class="footer">
+    Copyright Imad Pasha, 2024.
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Theme</a>. 
+</div>
+
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.terminal-nav').classList.toggle('active');
+        });
+    });
+    </script>
+  </html>

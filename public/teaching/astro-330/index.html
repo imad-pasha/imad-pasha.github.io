@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>imad-pasha/teaching/astro-330/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/console.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/index.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Astro 330: Scientific Computing for Astrophysics" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imad-pasha.github.io/teaching/astro-330/" />
+
+
+
+
+
+
+
+
+<meta name="twitter:title" content="Astro 330: Scientific Computing for Astrophysics"/>
+<meta name="twitter:description" content="This course (now a regular offering in the Yale Astronomy department) focuses on high level Python computing in the context of astrophysics research. The course goal is to provide students with the fundamentals of building astronomical pipelines and the general use of cutting edge tools and techniques currently used in the astronomical community. We discussed (and built) software for the analysis, manipulation, reduction, and visualization of astronomical data from observations and simulations."/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <div class="menu-icon">&#9776;</div>
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://imad-pasha.github.io/" class="no-stylesite-name">imad-pasha</a>:~# 
+              <a href='https://imad-pasha.github.io/teaching'>teaching</a>/<a href='https://imad-pasha.github.io/teaching/astro-330'>astro-330</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://imad-pasha.github.io/" typeof="ListItem">home/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/research/" typeof="ListItem">research/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/publications/" typeof="ListItem">publications/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/software/" typeof="ListItem">software/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/teaching/" typeof="ListItem">teaching/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>Astro 330: Scientific Computing for Astrophysics</h1>
+<img src="/a330_banner.jpg" alt=""><p>This course (now a regular offering in the Yale Astronomy department) focuses on high level Python computing in the context of astrophysics research. The course goal is to provide students with the fundamentals of building astronomical pipelines and the general use of cutting edge tools and techniques currently used in the astronomical community. We discussed (and built) software for the analysis, manipulation, reduction, and visualization of astronomical data from observations and simulations. I created this course as a natural follow up to the primary research methods introductory class at Yale, ASTR 255 (“Research Methods in Astrophysics”). Students were expected know basic Python coding, including working with numpy arrays and creating basic plots with matplotlib, before attempting the assignments in this course.</p>
+<p>The course (as I ran it) consisted of weekly Python lectures and in-depth tutorial/workshop days during which students worked together on programming assignments. We also held seminar lectures by invited outside experts who are pushing the forefront of Python in Astronomy. There are weekly coding assignments and a final capstone project.</p>
+<p>We are grateful to the speakers who met with our students - below is a running list, including some of the packages they are associated with:</p>
+<ul>
+<li>Prof. X Prochaska (UCSC; pypeit)</li>
+<li>Prof. David Hogg (NYU/Flatiron CCA; emcee)</li>
+<li>Shany Danieli (IAS/Princeton; artpop)</li>
+<li>Yao-Yuan Mao (Rutgers;adstex)</li>
+<li>Adrian Price-Whelan (CCA/Flatiron; gala,astropy)</li>
+</ul>
+<p>Our course handled distribution and submission of assignments via Github classroom. Students pulled assignments (Jupyter Notebooks) from Github, worked on them, and pushed the final labs back to Github.</p>
+<h1 id="topics-covered">Topics Covered</h1>
+<p><strong>Fundamentals recap and review</strong></p>
+<p>We began with an assignment which was distributed prior to the semester starting, and which focused on setting up conda environments for the students to use during the course, ensured everyone had the proper libraries installed, and reviewed basic operations such as numpy array manipulation, list comprehensions, plotting, and fitting.</p>
+<p><strong>Astronomical Imaging</strong></p>
+<p>Our first core lab and lecture were focused on the analysis of astronomical images (e.g., FITS imaging from HST). The programming goals of this module were to emphasize file handling with FITS, and the creation of robust functions in Python. Students wrote functions to plot astronomical imaging which handled WCS coordinate transformations, scaling, and optional arguments for colorbars and other features. They then used array manipulation and the astropy photutils package to perform aperture photometry on sources in the provided imaging.</p>
+<p><strong>Object Oriented Programming</strong></p>
+<p>From functions, we moved to Object Oriented Programming (OOP) and the construction of class objects with attributes and methods. We discussed the structure and use cases for classes, and the lab carried the students through the creation of a full pipeline to perform PSF Photometry on the stars in an image. Their pipelines, created as a series of methods for a class, performed calibrations (dark subtraction, flatfielding), background estimation and subtraction, masking of galaxies in the frame, algorithmic detection of the stars, centroiding of those stars, calculation of the second moments, and ultimately the creation of PSF models that were used to estimate the flux of each star in the frame.</p>
+<h3 id="sampling-and-mcmc">Sampling and MCMC</h3>
+<p>A key task in general astronomy research is fitting models to data. In this module, we introduced various means of fitting, from linear least squares fits using simple polynomial functions, to more complex models fit using student-built Metropolis Hastings MCMC samplers, and more complex models still fit using the popular fitting code emcee (Dan Foreman-Mackey). We spent time parsing the concept of sampling, and how it relates to the estimation of integrals, the concept of the Likelihood, the Prior, and the Evidence. In the lab, students first used Chi-squared methods to fit models to data, and then used self-made MCMC samplers to do the same. We assigned problems from two papers, Hogg, Bovy, and Lang (2010) on fitting, and Hogg &amp; Foreman-Mackey (2018) on MCMC, then extended these with comparisons to Chi-squared fitting. Students also got their first taste of emcee here.</p>
+<h3 id="stellar-spectroscopy-and-mcmc-fitting">Stellar Spectroscopy and MCMC Fitting</h3>
+<p>Having practiced the fundamentals of fitting and sampling in module four, we approached a more complex problem: fitting stellar spectral templates to Keck/DEIMOS data. Students used skills developed through the first three labs to sucessfully read in and modify the real and synthetic data and match their continuua and smooth the synthetic spectra to the instrumental resolution. They then used both Chi-squared and emcee to find the best fit radial velocities of the stars.</p>
+<h3 id="pandas">Pandas</h3>
+<p>Pandas is a popular data management library, used often in the data science industry, which extends the functionality of basic arrays. We taught the fundamentals of creating and operating on pandas DataFrames, including row and column based indexing, filtering on conditions, and joining tables using set theory / SQL style commands. Our lab used two datasets, including the 3DHST catalog, to exemplify some of the handy features of DataFrames that would be difficult to carry out with numpy arrays. Using the pandas tools, students were able to investigate the 3DHST catalog, creating UVJ diagrams of massive galaxies in the sample conditioned on different mass ranges, redshift ranges, etc.</p>
+<h3 id="packages">Packages</h3>
+<p>At this point in the semester, students began working on their final projects, a requirement of which was that installable packages were created. We carried out an interactive lecture, which followed roughly the guide in Jo Bovy’s handbook on package development, in which the students created and installed an example package from scratch during the lecture. For their lab, students investigated the code structure, import syntax, and documentation of several astronomical software packages, namely, ArtPop (Danieli &amp; Greco). By investigating the documentation and API reference for this unfamiliar software, students were able to create stellar populations in an odd shape (a ring) and inject this system into a real sky image. The ultimate goal was to gain familiarity with package structure, and how to write documentation useful for others using your code.</p>
+<h3 id="interactivity">Interactivity</h3>
+<p>Our final module focused on interactivity in Python. We focused on two areas within this topic — interactivity in matplotlib, including the use of sliders and animations, and interactive websites made using the streamlit package, which allows python scripts to seamlessly interact with buttons, sliders, and other forms of user input. A majority of the class used one of these two tools (or both) in their final projects.</p>
+
+
+        <div class="footer">
+    Copyright Imad Pasha, 2024.
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Theme</a>. 
+</div>
+
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.terminal-nav').classList.toggle('active');
+        });
+    });
+    </script>
+  </html>

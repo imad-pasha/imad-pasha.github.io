@@ -6,7 +6,15 @@ type = "list"
 
 Teaching is one of my favorite aspects of being in academia, and I have been engaged with various teaching initiatives for over 10 years. A few highlights of these experiences include the facilitating of the long-runnning "Python Decal" at UC Berkeley for three years as an undergraduate as well as serving as an undergraduate TA for both lower and upper level astrophysics courses, creating and teaching a new fully-credited course in the Yale Astronomy department as a graduate student, and publishing a Python textbook for astronomy students via the American Astronomical Society E-Book partnership with IOP Publishing. 
 
-You can learn more about some of the teaching I have done below. 
+You can learn more about some of the teaching and pedagogical endeavours I have participated in below. 
+
+
+# Astronomical Python Textbook 
+
+I have a recently-released textbook through AAS-IOP E-book division which covers introductory Python with an explicit focus on astronomy students and astronomical data analysis. You can read more about it [online](https://iopscience.iop.org/book/mono/978-0-7503-5147-8).
+
+![](/AstronomicalPythonFinalCover.png)
+{.custom-css-class3}
 
 # Astro 330: Scientific Computing in Astrophysics
 
@@ -36,9 +44,6 @@ As the field of astronomy continues to evolve, expectations for undergraduate re
 The **AstroCodex** is an attempt to meet this need, by producing a high quality, peer reviewed, tested set of coding exercises with astronomical examples. Community maintained (and filled at institutionally held hack days!), I want to help create a resource for other educators to make it as seamless as possible to augment or build assignments for coding-forward courses (much like the ones I have developed over the years) [(more)](astrocodex).
 
 
-# Astronomical Python Textbook 
-
-I have an upcoming textbook through AAS-IOP E-book division which covers introductory Python with an explicit focus on astronomy students and astronomical data analysis. 
 
 # Yale Summer Program in Astrophysics
 
@@ -55,3 +60,15 @@ I served as an instructor (primarily in Python) for the Yale Summer Program in A
 
 Every summer, around 25-30 students carry out research projects in Yale astronomy --- some Yale students, some external students supported by fellowships or simply part of research groups. I founded an organizational structure in the department via our ACDC (climate and diversity) group to serve as an "umbrella" for these students. This involved several [bootcamps](https://prappleizer.github.io/umbrella-academy/intro.html#) at the beginning of summer, weekly research office hours where I would help students out with coding or research questions, and a few socials. Students typically gave talks at the end of each summer; we held practice talk sessions for them, pairing them with grad students for feedback if they chose. You can see the materials I used for those bootcamps and lessons at this [github site](https://prappleizer.github.io/umbrella-academy/intro.html#).
 
+# Other Teaching
+Beyond these initiatives and roles I have led, I have served as a Teaching Fellow/Teaching assistant for the following courses: 
+
+### Yale University
+- Astronomy 210 - Stars and their Evolution. with Prof. Bob Zinn. Fall 2020.
+- Astronomy 155 - Intro to Astronomical Observing. with Dr. Michael Faison. Fall 2019.
+- Astronomy 255 - Research Methods in Astronomy. with Prof. Marla Geha. Spring 2019.
+- Astronomy 150 -  Earth in its Cosmic Context. with Prof. Gregory Laughlin. Fall 2018.
+### University of California, Berkeley 
+- Astronomy 198 - Astronomical Python. Lead instructor. Spring 2015,2016,2017
+- Astronomy 120 - Optical and Infrared Astronomy Lab. Dr. Gaspard Duchene. Fall 2016.
+- Astronomy C10 - Introduction to General Astronomy. Prof. Alex Filippenko. Spring 2016.

@@ -1,0 +1,85 @@
+img.custom-css-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+img.custom-css-class2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+
+
+
+p.custom-css{
+    font-weight:300;
+}
+
+.name span {
+    display: inline; /* This is the default, but it's here for clarity */
+    font-size: clamp(3rem, 6vw, 4rem);
+    font-weight:400;
+}
+
+/* Media query for screens narrower than a certain width, e.g., 600px */
+@media only screen and (max-width: 600px) {
+    .name .lastname {
+        display: block; /* Forces the last name onto a new line */
+        margin-top: 1rem;
+    }
+    img.custom-css-class, img.custom-css-class2 {
+        width: 100%;
+        margin-top: 2%; /* Adjust if needed */
+        margin-bottom: 2%; /* Adjust if needed */
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+/*============================================================================== 
+iPhone 6+, 7+ and 8+ || 414 x 736 || Default, Portrait and Landscape
+================================================================================ */
+@media only screen and (min-width: 414px) 
+and (max-width: 736px){ 
+    .test-class{display: none !important; visibility: hidden !important;}
+}
+
+@media only screen and (min-width: 414px) 
+and (max-width: 736px) and (orientation: portrait) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+
+}
+
+@media only screen and (min-width: 414px) 
+and (max-width: 736px) and (orientation: landscape) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+}
+
+/*============================================================================== 
+iPhone X || 375 x 812 || Default, Portrait and Landscape
+================================================================================ */
+@media only screen and (min-width: 375px) 
+and (max-width: 812px){ 
+    .test-class{display: none !important; visibility: hidden !important;}
+}
+
+@media only screen and (min-width: 375px) 
+and (max-width: 812px) and (orientation: portrait) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+}
+
+@media only screen and (min-width: 375px) 
+and (max-width: 812px) and (orientation: landscape) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source Software Projects on imad-pasha</title>
+    <link>https://imad-pasha.github.io/software/</link>
+    <description>Recent content in Open Source Software Projects on imad-pasha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imad-pasha.github.io/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>maskfill</title>
+      <link>https://imad-pasha.github.io/software/maskfill/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/maskfill/</guid>
+      <description>A robust and simple method for filling in masked data in astronomical images Astronomical images often have regions with missing or unwanted information, such as bad pixels, bad columns, cosmic rays, masked objects, or residuals from imperfect model subtractions. In certain situations it can be essential, or preferable, to fill in these regions. Most existing methods use low order interpolations for this task. In this paper a method is described that uses the full information that is contained in the pixels just outside masked regions.</description>
+    </item>
+    <item>
+      <title>pysersic</title>
+      <link>https://imad-pasha.github.io/software/pysersic/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/pysersic/</guid>
+      <description>A Python package for determining galaxy structural properties via Bayesian inference, accelerated with jax pysersic is a Python package for fitting Sersic (and other) profiles to astronomical images using Bayesian inference. It is built using the jax framework with inference performed using the numpyro probabilistic programming library.&#xA;The code is hosted on GitHub and is available open source under the MIT license.&#xA;The empirically derived Sérsic profile is the most common parametric form for the surface-brightness profile as it provides a reasonable approximation to nearly all galaxies, given the additional freedom of the Sérsic index over fixed-index profiles.</description>
+    </item>
+    <item>
+      <title>silkscreen</title>
+      <link>https://imad-pasha.github.io/software/silkscreen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/silkscreen/</guid>
+      <description>With upcoming wide field surveys from the ground and space the number of known dwarf galaxies at ≲ 20 Mpc is expected to exponentially increase. A limiting factor to scientific advancement will be measuring accurate distances to these galaxies. Traditional techniques such as tip of the red giant branch or surface brightness fluctuations are limited in their widespread applicability, especially in the semi-resolved regime. In this work we propose to use the rapidly growing field of simulation based inference to infer distances, and other physical properties, of dwarf galaxies directly from multi-band images.</description>
+    </item>
+    <item>
+      <title>TileViewer</title>
+      <link>https://imad-pasha.github.io/software/tileviewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/tileviewer/</guid>
+      <description>Tileviewer is a Bokeh-server based app for the visual inspection of astronomical images (generally &amp;ldquo;tiled&amp;rdquo; images from an astronomical survey).&#xA;Using an Airtable database as the backend, the app can connect to a data source (in our case, amazon s3) to retrieve data. The user interface allows for tiles to be scaled, zoomed in on, panned, etc. Users can also select objects and retrieve cutouts from the legacy survey. Interesting objects (or objects matching a search criteria) can be instantly tagged and added to a catalog on airtable.</description>
+    </item>
+  </channel>
+</rss>

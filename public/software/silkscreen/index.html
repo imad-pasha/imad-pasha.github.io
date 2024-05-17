@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>imad-pasha/software/silkscreen/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/console.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/index.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="silkscreen" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imad-pasha.github.io/software/silkscreen/" />
+
+
+  
+<meta property="og:image" content="https://imad-pasha.github.io/software/silkscreen/ss_v8_hud0784ecb3a538179f4ead5f069342518_2138467_400x0_resize_box_3.png">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://imad-pasha.github.io/software/silkscreen/ss_v8_hud0784ecb3a538179f4ead5f069342518_2138467_400x0_resize_box_3.png">
+
+
+
+<meta name="twitter:title" content="silkscreen"/>
+<meta name="twitter:description" content="With upcoming wide field surveys from the ground and space the number of known dwarf galaxies at ≲ 20 Mpc is expected to exponentially increase. A limiting factor to scientific advancement will be measuring accurate distances to these galaxies. Traditional techniques such as tip of the red giant branch or surface brightness fluctuations are limited in their widespread applicability, especially in the semi-resolved regime. In this work we propose to use the rapidly growing field of simulation based inference to infer distances, and other physical properties, of dwarf galaxies directly from multi-band images."/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <div class="menu-icon">&#9776;</div>
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://imad-pasha.github.io/" class="no-stylesite-name">imad-pasha</a>:~# 
+              <a href='https://imad-pasha.github.io/software'>software</a>/<a href='https://imad-pasha.github.io/software/silkscreen'>silkscreen</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://imad-pasha.github.io/" typeof="ListItem">home/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/research/" typeof="ListItem">research/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/publications/" typeof="ListItem">publications/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/software/" typeof="ListItem">software/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/teaching/" typeof="ListItem">teaching/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>silkscreen</h1>
+<p>With upcoming wide field surveys from the ground and space the number of known dwarf galaxies at ≲ 20 Mpc is expected to exponentially increase. A limiting factor to scientific advancement will be measuring accurate distances to these galaxies. Traditional techniques such as tip of the red giant branch or surface brightness fluctuations are limited in their widespread applicability, especially in the semi-resolved regime. In this work we propose to use the rapidly growing field of simulation based inference to infer distances, and other physical properties, of dwarf galaxies directly from multi-band images. We use neural posterior estimation to infer the posterior distribution of parameters while simultaneously training a embedding network to extract summary statistics from the images. To train the network we employ ArtPop to simulate images of dwarf galaxies before injecting them into real images to best match the noise properties. We describe our the details of our implementation which is available as the SilkScreen python package. We apply our method to ground based survey data of globular clusters in the milky way halo, dwarf galaxies at the edge of the local group and at ∼ 10 Mpc showing the flexibility of SilkScreen to infer accurate distance to many stellar systems ranging from fully resolved to un-resolved. We discuss the limitations of the current method and discess future directions including the possibility of amortized inference to easily enable inference for thousands of dwarf galaxies.</p>
+<p>Both the SBF and TRGB methods necessitate a galaxy is in the un-resolved or resolved, respectively, lim- iting their universal applicability. These methods aim to extract summary statistics from the imaging data are not therefore fully utilizing all of the information contained with the images. In addition these methods usually only employ two imaging bands when modern surveys often have several bands, yet again not utilizing all of the information available.</p>
+<p>Another possible avenue for constraining the proper- ties of dwarf galaxy candidates is the use of forward modeling. Forward modeling; i.e., generating realistic models from the parameters of interest and comparing these models to the data to determine a best-fit (or pos- terior space) has been successfully employed in a variety of astrophysical contexts (cite). It is often paired with Bayesian frameworks to produce Posterior distributions; a probabilistic view of parameters given the data avail- able, which is useful in helping to assess parameter un- certainties (see, e.g., Sharma 2017).</p>
+<p>With modern computer infrastructure it is possible to forward model images of dwarf galaxies by simulating them “from the ground up” (Cook et al. 2019; Mutlu- Pakdil et al. 2021; Greco &amp; Danieli 2022). These meth- ods populate galaxies star by star, with masses drawn from an assumed initial mass function (IMF); then, lu- minosities are assigned using isochrone libraries before the galaxies are injected directly into images,accounting for observational effects like the point spread function (PSF) and noise. This procedure leads to an incredible amount of flexibility, as almost anything can in principle be varied, e.g., star-formation history, metallicity, total mass.</p>
+<p>The challenge in performing fits or Bayesian sampling for such models is that it requires some method to com- pare the model images to the observed data. Tradition- ally this is done using a metric, e.g. χ2. In this case, however, the simulator is stochastic (as is the data), meaning that the same input parameters can produce different model images due to the randomness in draw- ing masses from the IMF and placing stars at different positions. Ultimately, the goal is not to match exactly the observed image, rather, it is to marginalize over the features of the image that are stochastic (such as the pre- cise locations of individual stars) and to fit to the higher order features that are shared in common between two galaxies sharing the same properties.</p>
+<p>One such forward modelling approach to studying semi-resolved populations was introduced in Conroy &amp; van Dokkum (2016) by comparing the pixel-CMD, the distribution of pixels in luminosity-color space (Bothun 1986; Lanyon-Foster et al. 2007; Lee et al. 2018). Un- like a traditional color-magnitude diagram, this method forgoes the need to fully resolve and measure photome- try of individual stars while capturing the distribution of pixels in the image. This forward modelling and in- ference procedure of this technique is discussed in Cook et al. (2019); it has been used to infer the distances and star-formation histories of the bulge of M31 (Conroy &amp; van Dokkum 2016) and nearby elliptical galaxies (Cook et al. 2020).</p>
+<img src="/silkscreen-example.webp" alt=""><h1 id="simulation-based-inference">Simulation Based Inference</h1>
+<p>In this paper we turn to the field of simulation based inference (also known as likelihood free inference (see Cranmer et al. 2020, for a recent review). This is a col- lection of methods aimed at performing inference when a method to simulate observations exist, but direct com- parison to data is challenging or intractable. Unlike tra- ditional Bayesian methods which compute the likelihood with a metric such as χ2, simulation based inference forgoes this calculation using other techniques to com- pare model to data. An example of simulation based in- ference is Approximate Bayesian Computation (ABC), where a parameter value is added to the posterior if its simulated observation is “close” to the real observation using a distance metric, often computed by the euclidean distance between a set of summary statistics. In these cases, the choice of summary statistic becomes of key importance, driving whether or not the right informa- tion is available when assessing model quality.</p>
+<p>In the past decade the field of simulation based in- ference has seen a rise in the use probabilistic ma- chine learning methods, specifically normalizing flows (Kobyzev et al. 2020; Papamakarios et al. 2021). Nor- malizing flows begin with a simple distribution, often a standard normal before applying a series of bijective transforms to create a more complex distribution. The parameters of these transformations are then optimized to match a target distribution. It is also possible to learn context for these transformations that vary the output distribution based on the context given. The specific type of transformation varies depending on the method used but they are often designed to be easily invertible to reduce the computational demand while training and performing inference, yet remain expressive enough to match any probability distribution (e.g. Papamakarios &amp; Murray 2016; Durkan et al. 2019).</p>
+<p>In simulation based inference, normalizing flows are used in neural posterior estimation (Papamakarios et al. 2017; Greenberg et al. 2019). This method directly learns the posterior distribution by training a neural flow given the context of the observed data. The network is trained directly on parameters sampled from a proposal distribution (often the prior) and mock observations pro- duced by the simulator. When trained solely on samples from the prior, the inference can be amortized — that is to say, the computational burden of simulating ob- servations and training the network are placed up front, and performing inference on new observations takes a fractions of the time once training is complete. Alternatively, the network can trained in successive rounds focusing on a single observation, where in each round proposals are drawn from the posterior derived in pre- vious round for more simulation-efficient inference.</p>
+<p>A final crucial benefit to the machine learning based approach is that for high dimensional data, such as im- ages, embedding networks which distill the original data into a set of summary statistics can be trained along- side the flow (Greenberg et al. 2019). For images this is most often a convolutional neural network (CNN). In this manner the combined embedding and flow networks learn the “best” summary statistics which maximize the ability for the network to discern the distance between a model and the data, and can take advantage of the entire information content of the data rather then re- lying on manually extracted summary statistics which likely do not encompass the entire information content present in the image.</p>
+
+
+        <div class="footer">
+    Copyright Imad Pasha, 2024.
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Theme</a>. 
+</div>
+
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.terminal-nav').classList.toggle('active');
+        });
+    });
+    </script>
+  </html>

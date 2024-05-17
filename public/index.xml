@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imad-pasha</title>
+    <link>https://imad-pasha.github.io/</link>
+    <description>Recent content on imad-pasha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imad-pasha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astronomical Python: An introduction to modern scientific programming</title>
+      <link>https://imad-pasha.github.io/publications/astronomical-python/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/astronomical-python/</guid>
+      <description>&lt;p&gt;Imad Pasha. &lt;em&gt;AAS-IOP Ebooks&lt;/em&gt;, 978-0-7503-5147-8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>maskfill: A robust and simple method to infill masks in astronomical images</title>
+      <link>https://imad-pasha.github.io/publications/maskfill/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/maskfill/</guid>
+      <description>&lt;p&gt;Pieter van Dokkum &amp;amp; &lt;em&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;&lt;/em&gt; PASP (accepted).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Heavy Metal Survey: The Evolution of Stellar Metallicities, Abundance Ratios, and Ages of Massive Quiescent Galaxies Since reshift 2</title>
+      <link>https://imad-pasha.github.io/publications/heavy-metal-1/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/heavy-metal-1/</guid>
+      <description>&lt;p&gt;Aliza G. Beverage, Mariska Kriek, Katherine A. Suess, and Charlie Conroy, Sedona H. Price, Guillermo Barro, Rachel Bezanson, Marijn Franx, Brian Lorenz, Yilun Ma, Lamiya Mowla, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Pieter van Dokkum, Daniel Weisz. eprint arXiv:2312.05307.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Heavy Metal Survey: Star Formation Constraints and Dynamical Masses of 21 Massive Quiescent Galaxies at z ~ 1.4 - 2.2</title>
+      <link>https://imad-pasha.github.io/publications/heavy-metal-2/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/heavy-metal-2/</guid>
+      <description>&lt;p&gt;Mariska Kriek, Aliza G. Beverage, Sedona H. Price, and Katherine A. Suess, Guillermo Barro, Rachel S. Bezanson, Charlie Conroy, Sam E. Cutler, Marijn Franx, Jamie Lin, Brian Lorenz, Yilun Ma, Ivelina G. Momcheva, Lamiya A. Mowla, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Pieter van Dokkum, Katherine E. Whitaker. eprint arXiv:2311.16232.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pysersic: A Python package for determining galaxy structural properties via Bayesian inference, accelerated with jax</title>
+      <link>https://imad-pasha.github.io/publications/pysersic/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/pysersic/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;&lt;/em&gt; and Tim B. Miller. &lt;em&gt;Journal of Open Source Software&lt;/em&gt;, 8(89), 5703, &lt;a href=&#34;https://doi.org/10.21105/joss.05703&#34;   target=&#34;_blank&#34;&gt;https://doi.org/10.21105/joss.05703&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Recipe for Unbiased Background Modeling in Deep Wide-Field Astronomical Images</title>
+      <link>https://imad-pasha.github.io/publications/backgrounds/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/backgrounds/</guid>
+      <description>&lt;p&gt;Qing Liu, Roberto G. Abraham, Peter G. Martin, William P. Bowman, Pieter van Dokkum, Steven R. Janssens, Seery Chen, Michael A. Keim, Deborah Lokhorst, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Zili Shen, Jielai Zhang. &lt;em&gt;The Astrophysical Journal&lt;/em&gt;, Volume 953, Issue 1, id.7, 24 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Candidate Runaway Supermassive Black Hole Identified by Shocks and Star Formation in its Wake</title>
+      <link>https://imad-pasha.github.io/publications/smbh/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/smbh/</guid>
+      <description>&lt;p&gt;Pieter van Dokkum, &lt;em&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;&lt;/em&gt;, Maria Luisa Buzzo, and Stephanie LaMassa, Zili Shen, Michael A. Keim, Roberto Abraham, Charlie Conroy, Shany Danieli, Kaustav Mitra, Daisuke Nagai, Priyamvada Natarajan, Aaron J. Romanowsky, Grant Tremblay, C. Megan Urry, Frank C. van den Bosch. &lt;em&gt;The Astrophysical Journal Letters&lt;/em&gt;, Volume 946, Issue 2, id.L50, 14 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quenching in Cosmic Sheets: Tracing the Impact of Large Scale Structure Collapse on the Evolution of Dwarf Galaxies</title>
+      <link>https://imad-pasha.github.io/publications/quenching-sheets/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/quenching-sheets/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;&lt;/em&gt;, Nir Mandelker, Frank C Bosch, and Volker Springel, Freeke Voort. &lt;em&gt;Monthly Notices of the Royal Astronomical Society&lt;/em&gt;, Volume 520, Issue 2, pp.2692-2708.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tidal Distortions in NGC1052-DF2 and NGC1052-DF4: Independent Evidence for a Lack of Dark Matter</title>
+      <link>https://imad-pasha.github.io/publications/tidal-distortions/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/tidal-distortions/</guid>
+      <description>&lt;p&gt;Michael A. Keim, Pieter van Dokkum, Shany Danieli, Deborah Lokhorst, Jiaxuan Li, Zili Shen, Roberto Abraham, Seery Chen, Colleen Gilhuly, Qing Liu, Allison Merritt, Tim B. Miller, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Ava Polzin. &lt;em&gt;The Astrophysical Journal&lt;/em&gt;,  Volume 935, Issue 2, id.160, 24 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Dragonfly Spectral Line Mapper: design and first light</title>
+      <link>https://imad-pasha.github.io/publications/dslm-spie-2/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/dslm-spie-2/</guid>
+      <description>&lt;p&gt;Seery Chen, Deborah M. Lokhorst, Jeff Shen, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Evgeni I. Malakhov, Roberto Abraham, Pieter van Dokkum&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The pathfinder Dragonfly Spectral Line Mapper: pushing the limits for ultra-low surface brightness spectroscopy</title>
+      <link>https://imad-pasha.github.io/publications/dslm-spie/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/dslm-spie/</guid>
+      <description>&lt;p&gt;Deborah M. Lokhorst, Seery Chen, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, and Jeff Shen, Evgeni I. Malakhov, Roberto G. Abraham, Pieter van Dokkum&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Giant Shell of Ionized Gas Discovered near M82 with the Dragonfly Spectral Line Mapper Pathfinder</title>
+      <link>https://imad-pasha.github.io/publications/m82-shell/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/m82-shell/</guid>
+      <description>&lt;p&gt;Deborah Lokhorst, Roberto Abraham, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, and Pieter van Dokkum, Seery Chen, Tim Miller, Shany Danieli, Johnny Greco, Jielai Zhang, Allison Merritt, Charlie Conroy. &lt;em&gt;The Astrophysical Journal&lt;/em&gt;, Volume 927, Issue 2, id.136, 12 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Method To Characterize the Wide-Angle Point Spread Function of Astronomical Images</title>
+      <link>https://imad-pasha.github.io/publications/psf/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/psf/</guid>
+      <description>&lt;p&gt;Qing Liu, Roberto Abraham, Colleen Gilhuly, Pieter van Dokkum, Peter G. Martin, Jiaxuan Li, Johnny P. Greco, Deborah Lokhorst, Seery Chen, Shany Danieli, Michael A. Keim, Allison Merritt, Tim B. Miller, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Ava Polzin, Zili Shen, Jielai Zhang. &lt;em&gt;The Astrophysical Journal&lt;/em&gt;, Volume 925, Issue 2, id.219, 20 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Nascent Tidal Dwarf Galaxy Forming within the Northern H I Streamer of M82</title>
+      <link>https://imad-pasha.github.io/publications/tdg/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/tdg/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;, Deborah Lokhorst, Pieter G. van Dokkum, and Seery Chen, Roberto Abraham, Johnny Greco, Shany Danieli, Tim Miller, Erin Lippitt, Ava Polzin, Zili Shen, Michael A. Keim, Qing Liu, Allison Merritt, Jielai Zhang. &lt;em&gt;The Astrophysical Journal Letters&lt;/em&gt;, Volume 923, Issue 2, id.L21, 7 pp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brackett-γ as a Gold-standard Test of Star Formation Rates Derived from SED Fitting</title>
+      <link>https://imad-pasha.github.io/publications/brg/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/brg/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Imad Pasha&lt;/strong&gt;, Joel Leja, Pieter G. van Dokkum, and Charlie Conroy, Benjamin D. Johnson. &lt;em&gt;The Astrophysical Journal&lt;/em&gt;, Volume 898, Issue 2, id.165&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hel, Poland</title>
+      <link>https://imad-pasha.github.io/photos/dragonfly/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/photos/dragonfly/</guid>
+      <description>Hel Peninsula (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea. The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.</description>
+    </item>
+    <item>
+      <title>maskfill</title>
+      <link>https://imad-pasha.github.io/software/maskfill/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/maskfill/</guid>
+      <description>A robust and simple method for filling in masked data in astronomical images Astronomical images often have regions with missing or unwanted information, such as bad pixels, bad columns, cosmic rays, masked objects, or residuals from imperfect model subtractions. In certain situations it can be essential, or preferable, to fill in these regions. Most existing methods use low order interpolations for this task. In this paper a method is described that uses the full information that is contained in the pixels just outside masked regions.</description>
+    </item>
+    <item>
+      <title>pysersic</title>
+      <link>https://imad-pasha.github.io/software/pysersic/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/pysersic/</guid>
+      <description>A Python package for determining galaxy structural properties via Bayesian inference, accelerated with jax pysersic is a Python package for fitting Sersic (and other) profiles to astronomical images using Bayesian inference. It is built using the jax framework with inference performed using the numpyro probabilistic programming library.&#xA;The code is hosted on GitHub and is available open source under the MIT license.&#xA;The empirically derived Sérsic profile is the most common parametric form for the surface-brightness profile as it provides a reasonable approximation to nearly all galaxies, given the additional freedom of the Sérsic index over fixed-index profiles.</description>
+    </item>
+    <item>
+      <title>Stellar Metallicities and Elemental Abundance Ratios of z ∼ 1.4 Massive Quiescent Galaxies</title>
+      <link>https://imad-pasha.github.io/publications/heavy-metal-0/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/heavy-metal-0/</guid>
+      <description>&lt;p&gt;Mariska Kriek, Sedona H. Price, Charlie Conroy, and Katherine A. Suess, Lamiya Mowla, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Rachel Bezanson, Pieter van Dokkum, Guillermo Barro&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://imad-pasha.github.io/about/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      <guid>https://imad-pasha.github.io/about/</guid>
+      <description>I am a 6th-year graduate student and NSF Graduate Research Fellow at Yale University, working with Prof. Pieter van Dokkum. My work focuses primarily on galaxy evolution, and in particular, my thesis is focused on the baryon cycle in galaxies — how galaxies accrete, proccess, and expel gas — using both novel instrumentation, large telescopes (Keck/Palomar), and simulations. I earned my undergraduate degrees in physics, astrophysics, and (minor) creative writing at UC Berkeley (go bears!</description>
+    </item>
+    <item>
+      <title>The MOSDEF Survey: The Strong Agreement between Hα and UV-to-FIR Star Formation Rates for z~2 Star-forming Galaxies</title>
+      <link>https://imad-pasha.github.io/publications/mosdef/</link>
+      <pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/publications/mosdef/</guid>
+      <description>&lt;p&gt;Irene Shivaei, Mariska Kriek, Naveen A. Reddy, and Alice E. Shapley, Guillermo Barro, Charlie Conroy, Alison L. Coil, William R. Freeman, Bahram Mobasher, Brian Siana, Ryan Sanders, Sedona H. Price, Mojegan Azadi, &lt;strong&gt;Imad Pasha&lt;/strong&gt;, Hanae Inami. *The Astrophysical Journal Letters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hel, Poland</title>
+      <link>https://imad-pasha.github.io/photos/me/</link>
+      <pubDate>Sun, 23 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/photos/me/</guid>
+      <description>Hel Peninsula (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea. The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.</description>
+    </item>
+    <item>
+      <title>Astro 330: Scientific Computing for Astrophysics</title>
+      <link>https://imad-pasha.github.io/teaching/astro-330/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/teaching/astro-330/</guid>
+      <description>This course (now a regular offering in the Yale Astronomy department) focuses on high level Python computing in the context of astrophysics research. The course goal is to provide students with the fundamentals of building astronomical pipelines and the general use of cutting edge tools and techniques currently used in the astronomical community. We discussed (and built) software for the analysis, manipulation, reduction, and visualization of astronomical data from observations and simulations.</description>
+    </item>
+    <item>
+      <title>AstroCodex</title>
+      <link>https://imad-pasha.github.io/teaching/astrocodex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/teaching/astrocodex/</guid>
+      <description>As the field of astronomy continues to evolve, expectations for undergraduate research have surged (hence a lot of the other teaching initiatives on this page!). There is a pressing need to equip students with the requisite technical proficiency and research acumen to ensure they are well-prepared for the rigors of graduate-level study or careers in industry.&#xA;The new reality is that undergraduates must learn research proficiency both earlier, and to a more advanced degree, than in the past.</description>
+    </item>
+    <item>
+      <title>silkscreen</title>
+      <link>https://imad-pasha.github.io/software/silkscreen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/silkscreen/</guid>
+      <description>With upcoming wide field surveys from the ground and space the number of known dwarf galaxies at ≲ 20 Mpc is expected to exponentially increase. A limiting factor to scientific advancement will be measuring accurate distances to these galaxies. Traditional techniques such as tip of the red giant branch or surface brightness fluctuations are limited in their widespread applicability, especially in the semi-resolved regime. In this work we propose to use the rapidly growing field of simulation based inference to infer distances, and other physical properties, of dwarf galaxies directly from multi-band images.</description>
+    </item>
+    <item>
+      <title>The Dragonfly Spectral Line Mapper</title>
+      <link>https://imad-pasha.github.io/research/dslm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/research/dslm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TileViewer</title>
+      <link>https://imad-pasha.github.io/software/tileviewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://imad-pasha.github.io/software/tileviewer/</guid>
+      <description>Tileviewer is a Bokeh-server based app for the visual inspection of astronomical images (generally &amp;ldquo;tiled&amp;rdquo; images from an astronomical survey).&#xA;Using an Airtable database as the backend, the app can connect to a data source (in our case, amazon s3) to retrieve data. The user interface allows for tiles to be scaled, zoomed in on, panned, etc. Users can also select objects and retrieve cutouts from the legacy survey. Interesting objects (or objects matching a search criteria) can be instantly tagged and added to a catalog on airtable.</description>
+    </item>
+  </channel>
+</rss>

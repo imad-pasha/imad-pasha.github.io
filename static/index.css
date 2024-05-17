@@ -16,7 +16,14 @@ img.custom-css-class2 {
     margin-bottom:2%;
 }
 
-
+img.custom-css-class3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
 
 
 p.custom-css{

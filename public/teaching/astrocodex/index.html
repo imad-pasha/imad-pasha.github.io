@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>imad-pasha/teaching/astrocodex/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/hugo-theme-console/css/console.css">
+    <link rel="stylesheet" href="https://imad-pasha.github.io/index.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="AstroCodex" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imad-pasha.github.io/teaching/astrocodex/" />
+
+
+<meta name="twitter:title" content="AstroCodex"/>
+<meta name="twitter:description" content="As the field of astronomy continues to evolve, expectations for undergraduate research have surged (hence a lot of the other teaching initiatives on this page!). There is a pressing need to equip students with the requisite technical proficiency and research acumen to ensure they are well-prepared for the rigors of graduate-level study or careers in industry.
+The new reality is that undergraduates must learn research proficiency both earlier, and to a more advanced degree, than in the past."/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <div class="menu-icon">&#9776;</div>
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://imad-pasha.github.io/" class="no-stylesite-name">imad-pasha</a>:~# 
+              <a href='https://imad-pasha.github.io/teaching'>teaching</a>/<a href='https://imad-pasha.github.io/teaching/astrocodex'>astrocodex</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://imad-pasha.github.io/" typeof="ListItem">home/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/research/" typeof="ListItem">research/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/publications/" typeof="ListItem">publications/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/software/" typeof="ListItem">software/</a></li>
+                
+                <li><a href="https://imad-pasha.github.io/teaching/" typeof="ListItem">teaching/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>AstroCodex</h1>
+<img src="/astro-codex-banner.png" alt=""><p>As the field of astronomy continues to evolve, expectations for undergraduate research have surged (hence a lot of the other teaching initiatives on this page!). There is a pressing need to equip students with the requisite technical proficiency and research acumen to ensure they are well-prepared for the rigors of graduate-level study or careers in industry.</p>
+<p>The new reality is that undergraduates must learn research proficiency both earlier, and to a more advanced degree, than in the past. However, astrophysics and astronomy major tracks have, historically, not included significant coding courses directly in their curricula, relying instead on mentorship-based education, self-learning by students, or external programs (e.g., REUs) to impart students with proficiency in code.</p>
+<p>This is a clearly insufficient and “leaky” pipeline for the equitable preparation of all undergraduate majors to these increasingly higher standards. Progress has been made to create and administer coursework directly focused on programming research skills; however, adoption of such courses has been slow and far from uniform across institutions.</p>
+<p>Several factors play into this delay, mostly revolving around the up-front effort required in crafting brand new courses, particularly for topics that have not been covered previously, and the fact that programming languages evolve on relatively short timescales, meaning techniques fall out of date quickly. In contrast, traditional coursework in astronomy has many textbooks (with exercises) to draw from when establishing how students will engage directly with the materials via problem sets. There does not exist a high quality set of coding-forward exercises that target both core programming skills and astronomical research skills. The existence of a well-maintained source of such materials would significantly lower the barrier to the creation of new seminars and courses that teach coding in a research context, especially if those materials were kept up to date over time, and iteratively improved.</p>
+<p>My contribution to helping this set of interrelated challenges is the creation of the <strong>AstroCodex</strong>. Here&rsquo;s the vision:</p>
+<pre><code>The AstroCodEx is a community-built and maintained set of modular exercises designed to target key programming skills needed in astronomical research.
+
+The exercises within the codex span a wide range of astronomical topics, use a multitude of astrophysical datasets, and can be mixed and matched as desired by instructors to fit their pedagogical needs.
+
+Every assignment in the codex is peer-reviewed, and are also living documents --- educators (who are free to download and modify the exercises at will) can create pull requests to make additions, improvements, or alternate versions of the exercises. The exercises also have associated tests which confirm they can be successfully completed under different and updating versions of the packages used. Furthermore, the use of the myst-tools framework allows for rich assignment augmentation, including hover-text for cross referencing definitions, equations, or links, as well as the ability to create annotations such as notes, hints, and warnings.
+</code></pre>
+<h1 id="online-repository">Online Repository</h1>
+<p>You can find the repository (in website form) at <a href="https://astrocodex.curve.space"   target="_blank">astrocodex.curve.space</a>
+. All exercises will remain open source, but solutions will only be made available to registered, verified educators.</p>
+<h1 id="hack--build-day-at-yale">Hack / Build Day at Yale</h1>
+<p>I&rsquo;m thrilled to say that I&rsquo;ve been able to secure funding to host a <strong>one day symposium/conference</strong> at Yale to bring together astronomers and educators to kick start the creation of the codex.</p>
+<p>It will take place in the ~first week of June, and grads, postdocs, and faculty are welcome to attend. The idea is to bring your favorite dataset or idea for a coding exercise. We&rsquo;ll discuss some pedagogical lessons, share experiences, and build our exercises. We&rsquo;ll then trade and try out each other&rsquo;s assignments, providing immediate feedback and steps for improvement. Finally, after a round of edits, we&rsquo;ll upload the exercises to the codex. We&rsquo;ll wrap up with some discussion of how this resource can best be collaboratively and stably maintained.</p>
+<p>You can learn more about the symposium at the <a href="#"  >conference website</a>
+, and feel free to reach out to me if you have any questions!</p>
+
+
+        <div class="footer">
+    Copyright Imad Pasha, 2024.
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Theme</a>. 
+</div>
+
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.terminal-nav').classList.toggle('active');
+        });
+    });
+    </script>
+  </html>
