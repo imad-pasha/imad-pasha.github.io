@@ -7,7 +7,7 @@ ads = "https://ui.adsabs.harvard.edu/abs/2024aspy.book.....P/abstract"
 type = "posts"
 +++
 
-Imad Pasha. *AAS-IOP Ebooks*, 978-0-7503-5147-8.
+**Imad Pasha.** *AAS-IOP Ebooks*, 978-0-7503-5147-8.
 
 <!--more-->
 
