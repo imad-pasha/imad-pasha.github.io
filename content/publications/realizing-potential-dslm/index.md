@@ -6,7 +6,7 @@ isFirstSecond = "True"
 ads="https://ui.adsabs.harvard.edu/abs/2024arXiv240617979L/abstract"
 type = "posts"
 +++
-Deborah M. Lokhorst, Seery Chen, **Imad Pasha**, Victoria Purcell, William P. Bowman, Qing Liu, Zili Shen, Aidan MacNichol, Evgeni I. Malakhov, Roberto G. Abraham, Pieter van Dokkum. *SPIE.*
+Deborah M. Lokhorst, Seery Chen, **Imad Pasha**, Victoria Purcell, William P. Bowman, Qing Liu, Zili Shen, Aidan MacNichol, Evgeni I. Malakhov, Roberto G. Abraham, Pieter van Dokkum. *Proceedings of the SPIE.*
 
 <!--more-->
 
