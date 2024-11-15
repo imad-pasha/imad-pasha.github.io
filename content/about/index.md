@@ -4,7 +4,10 @@ title = "About Me"
 image = "imad_face_square.png"
 type = "single"
 +++
-I am a 6th-year graduate student and NSF Graduate Research Fellow at Yale University, working with Prof. Pieter van Dokkum. My work focuses primarily on galaxy evolution, and in particular, my thesis is focused on the baryon cycle in galaxies — how galaxies accrete, proccess, and expel gas — using both novel instrumentation, large telescopes (Keck/Palomar), and simulations. I earned my undergraduate degrees in physics, astrophysics, and (minor) creative writing at UC Berkeley (go bears!) working with Prof. Mariska Kriek. I, along with Deborah Lokhorst, Seery Chen, Pieter, and Bob Abraham (PI) am building and comissioning the Dragonfly Spectral Line Mapper, a novel telephoto array with ultranarrowband filters, targeting emission lines from gas in the Circumgalactic Medium of nearby galaxies. You can learn more about my research [here](../research/), and more about my software releases [here](../software/).
+
+I am the lead software developer and a senior research scientist in the Dragonfly Focused Research Organization, which is devoted to the construction and commisioning of a novel 1000-lens distributed aperture array in Chile to observe cool gas in the circumgalactic and intergalactic medium. 
+
+I am a recent graduate of the Yale PhD program and NSF Graduate Research Fellowship, working with Prof. Pieter van Dokkum as my thesis advisor. My work focuses primarily on galaxy evolution, and in particular, my thesis is focused on the baryon cycle in galaxies — how galaxies accrete, proccess, and expel gas — using both novel instrumentation, large telescopes (Keck/Palomar), and simulations. I earned my undergraduate degrees in physics, astrophysics, and (minor) creative writing at UC Berkeley (go bears!) working with Prof. Mariska Kriek. I, along with Deborah Lokhorst, Seery Chen, Pieter, and Bob Abraham (PI) am building and comissioning the Dragonfly Spectral Line Mapper, a novel telephoto array with ultranarrowband filters, targeting emission lines from gas in the Circumgalactic Medium of nearby galaxies. You can learn more about my research [here](../research/), and more about my software releases [here](../software/).
 
 ![](df3_mw_hor.jpg)
 
