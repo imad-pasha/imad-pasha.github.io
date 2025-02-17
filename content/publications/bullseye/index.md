@@ -2,6 +2,7 @@
 title = "The Bullseye: HST, Keck/KCWI, and Dragonfly Characterization of a Giant Nine-ringed Galaxy"
 date = "2025-02-04"
 Journal = "ApJL" 
+isFirstSecond = "True"
 ads="https://ui.adsabs.harvard.edu/abs/2025ApJ...980L...3P/abstract"
 type = "posts"
 +++
