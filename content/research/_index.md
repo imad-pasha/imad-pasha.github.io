@@ -6,7 +6,7 @@ type = "gallery"
 
 
 # News
-
+- 2025-02-04: My paper on [The Bullseye Galaxy](../publications/bullseye/), recently published in ApJL, was the subject of several press releases from STScI/HST, Keck, and Yale, which were then also referenced in numerous news publications. 
 - 2023-12-15: My paper on [Quenching in Cosmic Sheets](../publications/quenching-sheets/) was awarded the Yale Astronomy Department's annual Beatrice Tinsley Prize. 
 
 
