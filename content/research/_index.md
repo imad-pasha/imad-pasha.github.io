@@ -67,11 +67,15 @@ Collisional Ring Galaxies (CRGs) form when one galaxy flies at a nearly 90 degre
 
 ![](/crg.jpg)
 
-I recently discovered a very rare case of a CRG in Legacy imaging --- rare beause the "ring" phase of evolution is incredibly short by cosmic standards, which is in part why not many of these systems are known. But this system, which we nicknamed the Bullseye, was especially rare, because it has not one, nor two, but *more than three* rings. 
+I recently discovered a very rare case of a CRG in Legacy imaging --- rare beause the "ring" phase of evolution is incredibly short by cosmic standards, which is in part why not many of these systems are known. But this system, which we nicknamed the Bullseye, was especially rare, because it has not one, nor two, but at least *nine* rings. 
 
 Not only does this provide a rare look at the shortest-lived phase of ring galaxy post collision evolution, we also discovered faint emission far in the outskirts (~70 kpc) of the galaxy. We hypothesize this emission is from the first expanding ring, which has since faded. If this is indeed the case, it would provide a strong case that CRGs can evolve into giant low surface brightness disks as they evolve --- validating some simulation-based evidence that this can occur, and shedding light on the formation mechanism of another poorly understood (and poorly sampled) galaxy type. 
 
-I was awarded several orbits of HST time during Cycle 31 to obtain high resolution imaging of the system in F425W and F814W, and in combination with Keck imaging and spectroscopy, will be publishing the results of that study soon. 
+I was awarded several orbits of HST time during Cycle 31 to obtain high resolution imaging of the system in F425W and F814W, and in combination with Keck imaging and spectroscopy and the Dragonfly Telephoto Array, we have published a comprehensive study of the system and its rings. 
+
+![](/esa-bullseye-crop-scalebar.jpg)
+
+This exciting galaxy was the subject of several press releases and, in turn, numerous news articles highlighting the unique nature of the system.
 
 
 # Tools and Techniques 
