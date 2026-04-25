@@ -2,7 +2,6 @@
 title = "dfcosmic: A Python package for cosmic ray removal"
 date = "2026-03-15"
 Journal = "PyOpenSci" 
-isFirstSecond = "False"
 ads="https://ui.adsabs.harvard.edu/abs/2026arXiv260217938R/abstract"
 type = "posts"
 +++
