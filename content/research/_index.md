@@ -6,9 +6,11 @@ type = "gallery"
 
 
 # News
+- 2026-03-11: The MOTHRA project has been officially announced to the world! You can read about it in [one of](https://news.yale.edu/2026/03/11/mothra-has-its-eyes-all-1140-them-focused-cosmic-web) [several](https://www.ft.com/content/74e5ce31-ca84-4ae0-96da-df517a015148?syn-25a6b1a6=1) [press releases](https://www.theglobeandmail.com/canada/science/article-meet-mothra-the-thousand-eyed-telescope-in-search-of-the-cosmic-web/). As a fun fact, many of the images are my photos :). 
+- 2025-12-24: Followup JWST data have [confirmed the supermassive black hole runaway](https://www.space.com/astronomy/black-holes/james-webb-space-telescope-confirms-1st-runaway-supermassive-black-hole-rocketing-through-cosmic-owl-galaxies-at-2-2-million-mph-it-boggles-the-mind) which has been picked up in the press as well.
 - 2025-02-04: My paper on [The Bullseye Galaxy](../publications/bullseye/), recently published in ApJL, was the subject of several press releases from STScI/HST, Keck, and Yale, which were then also referenced in numerous news publications. 
 - 2023-12-15: My paper on [Quenching in Cosmic Sheets](../publications/quenching-sheets/) was awarded the Yale Astronomy Department's annual Beatrice Tinsley Prize. 
-
+- 2023-04-06: Our recent work on a runaway supermassive black hole was [cover by NASA](https://science.nasa.gov/missions/hubble/hubble-sees-possible-runaway-black-hole-creating-a-trail-of-stars/). 
 
 
 # Overview 
