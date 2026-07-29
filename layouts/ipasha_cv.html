@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imad Pasha — Curriculum Vitae</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#20232a;
+  --muted:#565b66;
+  --faint:#8b9099;
+  --line:#dcdee3;
+  --hair:#ebecef;
+  --paper:#fffefb;
+  --wine:#6e1e2b;
+  --wine-soft:#f7eef0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{
+  font-family:'Source Serif 4',Georgia,serif;
+  font-size:13.5px;line-height:1.55;color:var(--ink);background:#e8e7e4;
+}
+a{color:var(--wine);text-decoration:none}
+a:hover{text-decoration:underline}
+.page{max-width:8.5in;margin:24px auto;background:var(--paper);box-shadow:0 2px 22px rgba(30,30,40,.14);padding:50px 60px}
+
+/* ---------- Header ---------- */
+header{text-align:center;margin-bottom:28px}
+h1{font-size:34px;font-weight:700;letter-spacing:.01em}
+.rule{
+  height:5px;margin:10px auto 12px;width:220px;
+  border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
+}
+.subtitle{font-style:italic;color:var(--muted);font-size:14px}
+.contact{
+  font-family:'Source Sans 3',sans-serif;font-size:12px;color:var(--muted);
+  margin-top:10px;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+}
+.contact a{color:var(--muted);border-bottom:1px dotted var(--faint)}
+.contact a:hover{color:var(--wine);text-decoration:none;border-color:var(--wine)}
+.summary{
+  max-width:60ch;margin:16px auto 0;font-size:13px;color:var(--muted);
+  text-align:center;
+}
+.summary b{color:var(--wine);font-weight:600}
+
+/* ---------- Sections ---------- */
+section{margin-bottom:24px}
+h2{
+  font-family:'Source Sans 3',sans-serif;
+  font-size:11.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--wine);margin-bottom:11px;
+  display:flex;align-items:center;gap:12px;
+}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+h2 .sub{
+  font-weight:400;letter-spacing:.04em;text-transform:none;color:var(--faint);font-size:11px;
+}
+
+/* ---------- Year-rail entries ---------- */
+.entry{
+  display:grid;grid-template-columns:96px 1fr;gap:0 18px;
+  padding:6px 0;break-inside:avoid;
+}
+.entry .yr{
+  font-family:'Source Sans 3',sans-serif;font-size:11.5px;color:var(--faint);
+  text-align:right;padding-top:3px;letter-spacing:.03em;
+}
+.entry .role{font-weight:700;font-size:14px}
+.entry .org{font-style:italic;color:var(--muted);font-size:13px}
+.entry .desc{font-size:12.5px;color:var(--muted);margin-top:2px}
+.entry .t{font-weight:600;font-size:13px}
+.entry .d{font-size:12.5px;color:var(--muted)}
+
+/* ---------- Publications ---------- */
+.pub{
+  display:grid;grid-template-columns:96px 1fr;gap:0 18px;
+  padding:8px 0;break-inside:avoid;border-bottom:1px solid var(--hair);
+}
+.pub:last-of-type{border-bottom:none}
+.pub .rail{text-align:right;padding-top:2px}
+.pub .venue{
+  display:inline-block;font-family:'Source Sans 3',sans-serif;
+  font-size:10.5px;font-weight:600;letter-spacing:.06em;
+  color:var(--wine);background:var(--wine-soft);
+  border-radius:3px;padding:2px 7px;white-space:nowrap;
+}
+.pub .yr{
+  display:block;font-family:'Source Sans 3',sans-serif;
+  font-size:11px;color:var(--faint);margin-top:3px;
+}
+.pub .t{font-weight:600;font-size:13.5px;line-height:1.4}
+.pub .t a{color:var(--ink)}
+.pub .t a:hover{color:var(--wine)}
+.pub .auth{font-size:12px;color:var(--muted);font-style:italic;margin-top:1px}
+.pub .auth .me{font-style:normal;font-weight:700;color:var(--wine)}
+
+/* ---------- Proposals: two ledgers ---------- */
+.props{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.prop-h{
+  font-family:'Source Sans 3',sans-serif;font-size:11px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+  border-bottom:1px solid var(--ink);padding-bottom:4px;margin-bottom:6px;
+}
+.prow{
+  display:flex;justify-content:space-between;align-items:baseline;
+  padding:5px 0;border-bottom:1px solid var(--hair);break-inside:avoid;
+  font-size:12.5px;
+}
+.prow:last-child{border-bottom:none}
+.prow .fac{font-weight:700;font-variant:small-caps;letter-spacing:.03em}
+.prow .fac small{font-weight:400;color:var(--muted);font-variant:normal}
+.prow .cyc{font-family:'Source Sans 3',sans-serif;font-size:11px;color:var(--faint)}
+
+/* ---------- Observing ---------- */
+.obs-wrap{columns:2;column-gap:36px}
+.obs{
+  display:flex;justify-content:space-between;padding:4px 0;
+  border-bottom:1px solid var(--hair);font-size:12.5px;break-inside:avoid;
+}
+.obs b{font-weight:600}
+.obs span{font-family:'Source Sans 3',sans-serif;font-size:11.5px;color:var(--faint)}
+
+/* ---------- Lists ---------- */
+.svc{list-style:none}
+.svc li{padding:4px 0 4px 18px;position:relative;font-size:13px}
+.svc li::before{content:"·";position:absolute;left:4px;color:var(--wine);font-weight:700}
+
+.printbar{max-width:8.5in;margin:16px auto 0;display:flex;justify-content:flex-end}
+.printbar button{
+  font:600 12px 'Source Sans 3',sans-serif;background:var(--wine);color:#fff;
+  border:none;border-radius:3px;padding:8px 18px;cursor:pointer;letter-spacing:.05em;
+}
+@media print{
+  body{background:#fff}
+  .page{margin:0;max-width:none;box-shadow:none;padding:0}
+  .printbar{display:none}
+  @page{size:letter;margin:.6in .7in}
+  /* --- pagination intelligence --- */
+  h2{break-after:avoid-page;break-inside:avoid}
+  h2 + *{break-before:avoid-page}          /* keep heading with its first entry */
+  .prop-h{break-after:avoid-page}
+  .prop-h + *{break-before:avoid-page}
+  .props,.obs-wrap{break-inside:avoid}      /* short blocks: keep whole */
+  header{break-after:avoid-page}
+  .entry,.pub,.prow,.obs,.svc li{break-inside:avoid}
+  body{orphans:3;widows:3}
+}
+@media (max-width:720px){
+  .page{padding:28px 22px}
+  header{flex-direction:column;align-items:flex-start;gap:10px}
+  .contact{text-align:left}
+  .entry,.pub{grid-template-columns:64px 1fr;gap:0 12px}
+  .props{grid-template-columns:1fr}
+  .obs-wrap{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="printbar"><button onclick="window.print()">Export as PDF</button></div>
+<div class="page">
+
+<header>
+  <h1>Imad Pasha</h1>
+  <div class="rule"></div>
+  <div class="subtitle">Curriculum Vitae</div>
+  <div class="contact">
+    <a href="https://astro.yale.edu/ipasha">imad-pasha@github.io</a>
+    <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22pasha%2C%20imad%22%20collection%3Aastronomy&sort=date%20desc">NASA/ADS Publications</a>
+  </div>
+  <p class="summary"><b>Observational astrophysicist studying the circumgalactic medium</b> and the low surface brightness universe through deep imaging and integral field spectroscopy. Currently <b>Head of Software Development for MOTHRA</b>, a state-of-the-art robotic telescope array under construction in Chile.</p>
+</header>
+
+<section>
+  <h2>Positions Held</h2>
+  <div class="entry">
+    <div class="yr">2025–present</div>
+    <div>
+      <div class="role">Head of Software Development &amp; Senior Research Scientist</div>
+      <div class="org">Dragonfly Focused Research Organization</div>
+      <div class="desc">Leads development of the software infrastructure powering the Modular Optical Telephoto Hyperspectral Robotic Array (MOTHRA), a state-of-the-art facility under construction in Chile.</div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="yr">2026–present</div>
+    <div><div class="role">Visiting Scholar</div><div class="org">CIERA / Northwestern University</div></div>
+  </div>
+  <div class="entry">
+    <div class="yr">2025–2026</div>
+    <div><div class="role">Laboratory Assistant (Visiting Scholar)</div><div class="org">Yale University</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="yr">2018–2024</div>
+    <div>
+      <div class="role">PhD, Astrophysics — Yale University</div>
+      <div class="desc">Advisor: Prof. Pieter G. van Dokkum<br>Key collaborators: Joel Leja, Nir Mandelker, Frank van den Bosch, Tim B. Miller.</div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="yr">2020</div>
+    <div><div class="role">MPhil &amp; MSc, Astronomy and Astrophysics — Yale University</div></div>
+  </div>
+  <div class="entry">
+    <div class="yr">2014–2018</div>
+    <div>
+      <div class="role">BA, Astrophysics &amp; Physics; Minor, Creative Writing — UC Berkeley</div>
+      <div class="desc">Advisor: Prof. Mariska Kriek.</div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="yr"></div>
+    <div><div class="t">Major Fellowships</div><div class="d">NSF Graduate Research Fellowship <br> LSSTc Data Science Fellowship <br> Yale Poorvu Associates in Teaching Fellowship</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Publications</h2>
+<div style="font-family:'Source Sans 3',sans-serif;font-size:14px;color:var(--faint);letter-spacing:.05em;margin:-4px 0 10px;text-align:left;break-after:avoid-page;page-break-after:avoid;">31 Total papers&nbsp;·&nbsp;596 citations&nbsp;·&nbsp;<i style="font-style:normal;color:var(--muted)">h</i>-index 13&nbsp;·&nbsp;<i style="font-style:normal;color:var(--muted)">g</i>-index 24 &nbsp;·&nbsp; <i style="font-style:normal;color:var(--muted)">i100</i>-index 1</div>
+  <div class="pub">
+    <div class="rail"><span class="venue">ApJL 980, L3</span><span class="yr">2025</span></div>
+    <div>
+      <div class="t"><a href="https://doi.org/10.3847/2041-8213/ad9f5c">The Bullseye: HST, Keck/KCWI, and Dragonfly Characterization of a Giant Nine-ringed Galaxy</a></div>
+      <div class="auth"><span class="me">Pasha, I.</span>; van Dokkum, P. G.; Liu, Q.; et al.</div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="rail"><span class="venue">ApJL 923, L21</span><span class="yr">2021</span></div>
+    <div>
+      <div class="t"><a href="https://doi.org/10.3847/2041-8213/ac3ca6">A Nascent Tidal Dwarf Galaxy Forming within the Northern HI Streamer of M82</a></div>
+      <div class="auth"><span class="me">Pasha, I.</span>; Lokhorst, D.; van Dokkum, P.; et al.</div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="rail"><span class="venue">MNRAS 520, 2</span><span class="yr">2022</span></div>
+    <div>
+      <div class="t"><a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.2692P/abstract">Quenching in Cosmic Sheets: Tracing the Impact of Large Scale Structure Collapse on the Evolution of Dwarf Galaxies</a></div>
+      <div class="auth"><span class="me">Pasha, I.</span>; Mandelker, N.; van den Bosch, F. C.; et al.</div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="rail"><span class="venue">ApJ 898, 2</span><span class="yr">2020</span></div>
+    <div>
+      <div class="t"><a href="https://iopscience.iop.org/article/10.3847/1538-4357/aba0b1">Brackett-γ as a Gold Standard Test of Star Formation Rates Derived from SED Fitting</a></div>
+      <div class="auth"><span class="me">Pasha, I.</span>; Leja, J.; van Dokkum, P.; Conroy, C.; Johnson, B.</div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="rail"><span class="venue">JOSS 8, 89, 5703</span><span class="yr">2023</span></div>
+    <div>
+      <div class="t"><a href="https://joss.theoj.org/papers/10.21105/joss.05703">pysersic: A Python package for determining galaxy structural properties via Bayesian inference, accelerated with jax</a></div>
+      <div class="auth"><span class="me">Pasha, I.</span>; Miller, T. B.</div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="rail"><span class="venue">ApJL 950, 2</span><span class="yr">2023</span></div>
+    <div>
+      <div class="t"><a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...946L..50V/abstract">A Candidate Runaway Supermassive Black Hole Identified by Shocks and Star Formation in its Wake</a></div>
+      <div class="auth">van Dokkum, P.; <span class="me">Pasha, I.</span>; et al.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Proposals &amp Observations</h2>
+  <div class="props" style="margin-bottom:16px">
+    <div>
+      <div class="prop-h">Principle Investigator</div>
+      <div class="prow"><span class="fac">HST <small>GO 18416 (12 Orbits)</small></span><span class="cyc">Cycle 34</span></div>
+      <div class="prow"><span class="fac">HST <small>GO 17508 (2 Orbits)</small></span><span class="cyc">Cycle 31</span></div>
+      <div class="prow"><span class="fac">VLA <small>26B-335 (28.8 hours)</small></span><span class="cyc">Cycle 2026B</span></div>
+      <div class="prow"><span class="fac">Keck <small>LRIS (1 Night)</small></span><span class="cyc">2025A</span></div>
+      <div class="prow"><span class="fac">Palomar <small>DoubleSpec (10 nights)</small></span><span class="cyc">2024B</span></div>
+      <div class="prow"><span class="fac">Palomar <small>TripleSpec (6 nights)</small></span><span class="cyc">2023A</span></div>
+    </div>
+    <div>
+      <div class="prop-h">Co-Investigator</div>
+      <div class="prow"><span class="fac">Roman <small>10189 (Analysis)</small></span><span class="cyc">Cycle 1</span></div>
+      <div class="prow"><span class="fac">Roman <small>10236 (Analysis)</small></span><span class="cyc">Cycle 1</span></div>
+      <div class="prow"><span class="fac">HST <small>GO 17301 (12 Orbits)</small></span><span class="cyc">Cycle 30</span></div>
+      <div class="prow"><span class="fac">JWST <small>GO 3149 (11.0 hr)</small></span><span class="cyc">Cycle 2</span></div>
+    </div>
+  </div>
+  <div class="prop-h">Lead Observing Experience — 77 nights total</div>
+  <div class="obs-wrap">
+    <div class="obs"><b>Palomar / TripleSpec</b><span>5 m · 22 nights</span></div>
+    <div class="obs"><b>Keck / LRIS</b><span>10 m · 13 nights</span></div>
+    <div class="obs"><b>Keck / NIRES</b><span>10 m · 11 nights</span></div>
+    <div class="obs"><b>Keck / MOSFIRE</b><span>10 m · 11 nights</span></div>
+    <div class="obs"><b>Keck / KCWI</b><span>10 m · 9 nights</span></div>
+    <div class="obs"><b>Palomar / DoubleSpec</b><span>5 m · 7 nights</span></div>
+    <div class="obs"><b>Keck / NIRSPEC</b><span>10 m · 2 nights</span></div>
+    <div class="obs"><b>Lick / Kast</b><span>3 m · 2 nights</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Honors, Fellowships &amp; Awards</h2>
+  <div class="entry"><div class="yr">2024</div><div><div class="t">Yale Astronomy Departmental Service Award</div><div class="d">For major contributions to mentorship and education within and beyond the department.</div></div></div>
+  <div class="entry"><div class="yr">2022</div><div><div class="t">Beatrice Tinsley Award, Yale Astronomy</div><div class="d">Best astronomy paper by a Yale graduate student.</div></div></div>
+  <div class="entry"><div class="yr">2021</div><div><div class="t">Yale Poorvu Associates in Teaching Fellowship</div><div class="d">Awarded to design and teach a new course as instructor of record.</div></div></div>
+  <div class="entry"><div class="yr">2018</div><div><div class="t">NSF Graduate Research Fellowship</div><div class="d">Competitive multi-year national funding; two-year data science fellowship.</div></div></div>
+  <div class="entry"><div class="yr">2018</div><div><div class="t">LSSTc Data Science Fellowship</div><div class="d">Two-year data science fellowship.</div></div></div>
+  <div class="entry"><div class="yr">2018</div><div><div class="t">AAS Chambliss Award, Honorable Mention (AAS 231)</div></div></div>
+  <div class="entry"><div class="yr">2017</div><div><div class="t">Dorothea Klumpke-Roberts Award, UC Berkeley Astronomy</div><div class="d">For outstanding scholarly achievement.</div></div></div>
+  <div class="entry"><div class="yr">2017</div><div><div class="t">AAS Chambliss Award, Honorable Mention (AAS 229)</div></div></div>
+  <div class="entry"><div class="yr">2015</div><div><div class="t">Third Place Poster Prize, Fifty-one Ergs Supernova Conference</div></div></div>
+  <div class="entry"><div class="yr">2014</div><div><div class="t">First Place Poster Prize, UNC Undergraduate Research Symposium</div></div></div>
+</section>
+
+<section>
+  <h2>Invited &amp; Conference Talks</h2>
+  <div class="entry"><div class="yr">2024</div><div class="d">&middot; IAC Winter School in Astrophysics: The Baryon Cycle across Cosmic Time, <i>Santa Cruz, Tenerife</i> <br> &middot; AstroEDUNC Conference (Invited Panelist),UNC Chapel Hill, <i>North Carolina, USA</i> <br> &middot; STScI Spring Symposium, <i>Baltimore, MD</i></div></div>
+  <div class="entry"><div class="yr">2023</div><div class="d">&middot; A Journey through Galactic Environments, <i>Porto Ercole, Italy</i> <br> &middot; Outflows 2023 — Feedback and the Baryon Cycle, <i>Melbourne, AUS</i> <br> &middot; Oases in the Cosmic Desert, <i>Tempe, Arizona, USA</i></div></div>
+  <div class="entry"><div class="yr">2022</div><div class="d">&middot; Flatiron Institute CCA Thursday Series, <i>New York City, USA</i> <br> &middot; UCSB CGM Group Lunch, <i>Santa Barbara, USA</i> <br> &middot; Cosmolunch, Racah Institute, <i>Hebrew University of Jerusalem</i></div></div>
+  <div class="entry"><div class="yr">2020</div><div class="d">&middot; Indiana University Astronomy Department Lunch Talk, <i>Bloomington, USA</i></div></div>
+</section>
+
+<section>
+  <h2>Teaching</h2>
+  <div class="entry"><div class="yr">2024</div><div><div class="t">Textbook: Astronomical Python — An Introduction to Modern Scientific Programming</div><div class="d">IOP/AAS E-Books.</div></div></div>
+  <div class="entry"><div class="yr">2021–2024</div><div><div class="t">Co-Instructor of Record, Yale University</div><div class="d">Research Preparation Workshop Series (Sp 2024); Scientific Computing in Astrophysics with Prof. Marla Geha (Fa 2021).</div></div></div>
+  <div class="entry"><div class="yr">2018–2020</div><div><div class="t">Teaching Fellow, Yale University</div><div class="d">Stars and Their Evolution · Introduction to Astronomical Observations · Yale Summer Program in Astrophysics · Research Methods in Astrophysics · Earth in its Cosmic Context.</div></div></div>
+  <div class="entry"><div class="yr">2015–2017</div><div><div class="t">Instructor of Record, UC Berkeley</div><div class="d">Introduction to Python for Astronomers — designed and taught the department's introductory programming course.</div></div></div>
+  <div class="entry"><div class="yr">2016</div><div><div class="t">Undergraduate GSI, UC Berkeley</div><div class="d">Optical and Infrared Astronomy Laboratory · Introduction to General Astronomy.</div></div></div>
+</section>
+
+<section>
+  <h2>Service &amp; Outreach</h2>
+  <ul class="svc">
+    <li>Lead Developer and Organizer, AstroCodEx Educational Collaboration</li>
+    <li>Chair, Steering Committee: Astronomy Climate and Diversity Committee (Yale University)</li>
+    <li>Co-Chair, Subcommittee on Undergraduate Affairs, ACDC (Yale University)</li>
+    <li>Organizing Committee Member, Astronomy Equity and Inclusion Journal Club (Yale University)</li>
+    <li>Undergraduate Summer Research Program Coordinator (Yale University)</li>
+  </ul>
+</section>
+
+</div>
+</body>
+</html>
