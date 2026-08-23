@@ -1,7 +1,7 @@
 
 
 +++
-title = "Quantitative Morphology of Galactic Cirrus in Deep Optical Imaging"
+title = "Predicting the Kinematics of the Cold Circumgalactic Medium from its Morphology using Convolutional Neural Networks"
 date = "2026-08-12"
 Journal = "ApJ" 
 isFirstSecond = "True"
