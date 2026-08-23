@@ -3,4 +3,4 @@ title = "Publications"
 type = "pubs"
 +++
 
-N total: 32 / citations: 545 / h-index: 12 / g-index: 22
+N total: 37 / citations: 605 / h-index: 13 / g-index: 24
