@@ -1,6 +1,6 @@
 +++
 title = "Hyrax: An Extensible Framework for Rapid ML Experimentation and Unsupervised Discovery in the Era of Rubin, Roman, and Euclid"
-date = "05-15-2026"
+date = "2026-05-15"
 Journal = "AJ" 
 type = "posts"
 ads="https://ui.adsabs.harvard.edu/abs/2026arXiv260518959G/abstract"
